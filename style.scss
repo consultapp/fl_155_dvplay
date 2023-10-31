@@ -5,8 +5,10 @@ $bgColor: white;
 $primary: #1c77ff;
 
 @import "components/header/header.scss";
+@import "components/footer/footer.scss";
 @import "components/container/container.scss";
 @import "components/nav/nav.scss";
+@import "components/skeleton/skeleton.scss";
 @import "components/code/code.scss";
 @import "components/main/main.scss";
 @import "components/button/button.scss";
