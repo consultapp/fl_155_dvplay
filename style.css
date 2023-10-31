@@ -63,10 +63,16 @@
   gap: 10px;
   padding: 32px;
   border-radius: 24px;
-  padding-top: 24px;
+  margin-top: 24px;
 }
 .code__text {
   flex-grow: 1;
+}
+.code__icon {
+  color: black;
+}
+.code__icon:hover {
+  color: #727d8e;
 }
 
 .main__header1 {

@@ -10,9 +10,18 @@
   gap: 10px;
   padding: 32px;
   border-radius: 24px;
-  padding-top: 24px;
+  margin-top: 24px;
 
   &__text {
     flex-grow: 1;
+  }
+  &__icon {
+    color: $fontMain;
+    // stroke: $fontMain;
+
+    &:hover {
+      color: $fontGray;
+      // stroke: $fontGray;
+    }
   }
 }
