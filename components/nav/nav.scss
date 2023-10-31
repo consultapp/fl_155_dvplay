@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  &__link {
+    color: var(--black, #131416);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}

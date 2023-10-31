@@ -1,0 +1,53 @@
+/* Стилизация кнопки */
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: transparent;
+
+  color: $primary;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+
+  padding: 8px 16px 6px 16px;
+
+  /* PRIMARY */
+  &_primary {
+    border: 1px solid $primary;
+    :hover {
+      background: $primary;
+    }
+  }
+
+  /* SECONDARY */
+  &_secondary {
+    color: var(--white);
+    background: var(--secondary);
+    border-width: 0px;
+  }
+  &_secondary:hover {
+    background: var(--secondaryHover);
+  }
+
+  /* ALTERNATE */
+  &_alternate {
+    color: var(--grey-4);
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+  }
+  &_alternate:hover {
+    border-color: var(--alternateHover);
+  }
+
+  /* DISABLED */
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}

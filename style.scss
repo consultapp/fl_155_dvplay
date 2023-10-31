@@ -1,0 +1,23 @@
+$lightGray: #f6f8fb;
+$fontMain: black;
+$fontGray: #727d8e;
+$bgColor: white;
+$primary: #1c77ff;
+
+@import "components/header/header.scss";
+@import "components/container/container.scss";
+@import "components/nav/nav.scss";
+@import "components/code/code.scss";
+@import "components/main/main.scss";
+@import "components/button/button.scss";
+// @import "components/lang/lang.scss";
+@import "normalize.scss";
+
+body {
+  padding: 0;
+  margin: 0;
+  color: $fontGray;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: center;
+}
